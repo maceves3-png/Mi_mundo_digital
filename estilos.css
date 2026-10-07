@@ -1,0 +1,107 @@
+/*Estilos generales*/
+body {
+    margin: 0;
+}
+ 
+/*Estilos del encabezado*/
+header {
+    width: 100%;
+    height: 230px;
+}
+
+header img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/*Estilos del menu*/
+nav {
+    background-color: goldenrod;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color:peru;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 180px;
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+footer {
+    background-color: rgb(241, 160, 10);
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+footer img {
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    min-width: 350px;
+}
+
+.principal {
+    width: 60%;
+    background-color: #eeeeee;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+.principal img {
+    width: 200px;
+    margin-right: auto;
+    margin-left: 0px;
+
+}
+
+.secundario {
+    width: 50%;
+    background-color: #eeeeee;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+.secundario iframe {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
