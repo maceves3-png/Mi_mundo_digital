@@ -142,3 +142,39 @@ section {
   padding: 10px;
   color: white;
 }
+
+
+/* Estilos de la tabla de tecnologias */
+.principal table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.principal th,
+.principal td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.principal th {
+    background-color: goldenrod;
+    color: white;
+}
+
+.principal tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Espaciado del glosario */
+.principal dt {
+    margin-top: 12px;
+}
+
+.principal dd {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
